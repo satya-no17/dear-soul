@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+.align {
+  align-items: center;
+  justify-content: center;
+}
+.column {
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/ChatGPT Image Jun 28, 2025, 04_27_52 PM.png"); /* update path */
+  background-size: cover;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+.head {
+  height: 100px;
+  font-size: 2rem;
+  font-family: "Great Vibes", cursive;
+  display: flex;
+  flex-direction: column;
+  left: 33%;
+  margin: 1%;
+  padding: 2%;
+}
+.form_container {
+  height: 40%;
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid #4d412c;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: "Allura", cursive;
+}
+form p {
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #b48b5b;
+  border-radius: 8px;
+  background-color: #fff9f0;
+  font-family: "Parisienne", cursive;
+  font-size: 1rem;
+  resize: none;
+}
+textarea {
+  margin-bottom: 1rem;
+}
+button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  font-family: "Parisienne", cursive;
+  font-size: 1.2rem;
+  background-color: #822727;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #5e1d1d;
+}
+@media (max-width: 600px) {
+    .head{
+      font-size: 1.4rem;
+    }
+}

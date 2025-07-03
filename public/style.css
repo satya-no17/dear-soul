@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.head {
+  font-size: 1.8rem;
+  width: 100%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.style {
+  font-family: "Great Vibes", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  padding: 3%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.font {
+  font-size: 2.2rem;
+}
+
+.song {
+  flex-direction: column;
+}
+button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  font-family: "Parisienne", cursive;
+  font-size: 1.2rem;
+  background-color: #822727;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #5e1d1d;
+}
+
+@media (max-width: 768px) {
+  .font {
+    font-size: 1.5rem;
+  }
+
+  .head {
+    font-size: 1.4rem;
+  }
+
+  .style {
+    padding: 2%;
+    margin: 1%;
+  }
+
+  .body {
+    background-image: url("/bg.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .font {
+    font-size: 1.2rem;
+  }
+
+  .head {
+    font-size: 1.2rem;
+  }
+}

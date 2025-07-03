@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mood</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="head flex align">
+      <h1>DEAR SOUL</h1>
+      <p>message from the Universe</p>
+    </div>
+    <div class="form flex align">
+      <div class="form_container">
+        <form action="http://localhost:3000/send" method="POST">
+            <div class="form_p">
+                 <p><i class="fa-solid fa-user"> </i>  Your Name</p>
+            </div>
+            <div class=" flex align">
+                <input type="text" id="name"name="name" placeholder="." required />
+            </div>
+            <div class="form_p">
+                <p> Express Yourself.... </p>
+                <p>whisper what your soul is aching to say......</p>
+            </div>
+            <div class="flex align">
+                <textarea id="message" name ='message' rows="5" placeholder="Pour your soul here..."></textarea>
+            </div>
+            <button type="submit">Send to the Universe</button>
+        </form>
+      </div>
+    </div>
+    <script src="/frontscript.js"></script>
+  </body>
+</html>
